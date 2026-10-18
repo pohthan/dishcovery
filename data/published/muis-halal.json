@@ -1,0 +1,17 @@
+{
+  "source": "MUIS Halal Establishments e-service (halal.muis.gov.sg/halal/establishments)",
+  "checkedOn": "2026-10-05",
+  "method": "Searched the e-service by venue name in the browser and copied each result. Names, categories, certificate numbers and addresses are exactly as MUIS displayed them. Search matches name or address text, so a result list may not be exhaustive.",
+  "establishments": [
+    { "centreId": "lau-pa-sat", "name": "BBQ Chicken Wing & Western Cuisine (S69)@Kopitiam Lau Pa Sat", "category": "Hawker", "certificateNo": "EEHK20230000954", "address": "18 RAFFLES QUAY TELOK AYER FESTIVAL MARKET (LAU PA SAT FESTIVAL MARKET), Stall 69 048582" },
+    { "centreId": "lau-pa-sat", "name": "CREME & CONE", "category": "Snack Bar / Bakery", "certificateNo": "EESB25100000027", "address": "18 RAFFLES QUAY #01-7987 FORMER TELOK AYER MARKET (LAU PA SAT) 048582" },
+    { "centreId": "lau-pa-sat", "name": "Hong Kong Street Live BBQ Seafood (MR6)@Kopitiam Lau Pa Sat", "category": "Hawker", "certificateNo": "EEHK20240000548", "address": "18 RAFFLES QUAY TELOK AYER FESTIVAL MARKET, Stall 51 to 53 048582" },
+    { "centreId": "lau-pa-sat", "name": "Ipoh Hainanese Chicken Rice (S14) @ Kopitiam Lau Pa Sat", "category": "Hawker", "certificateNo": "EEHN21120013041", "address": "18 RAFFLES QUAY #01-14 LAU PA SAT FESTIVAL MARKET, Stall 14 048582" },
+    { "centreId": "lau-pa-sat", "name": "Ming Yen BBQ & Seafood (S67 & S68) @ Kopitiam Lau Pa Sat", "category": "Hawker", "certificateNo": "EEHN21070012536", "address": "18 RAFFLES QUAY LAU PA SAT FESTIVAL MARKET, Stall 67 & Stall 68 048582" },
+    { "centreId": "lau-pa-sat", "name": "MUNCHI PANCAKES (S61) @ LAU PA SAT FESTIVAL MARKET", "category": "Hawker", "certificateNo": "EEHK20230000278", "address": "18 RAFFLES QUAY TELOK AYER FESTIVAL MARKET, 61 048582" },
+    { "centreId": "lau-pa-sat", "name": "Thunder Tea Rice X Thunder Spize", "category": "Hawker", "certificateNo": "EEHK26060000030", "address": "18 RAFFLES QUAY Stall 54 LAU PA SAT, Telok Ayer Festival Market 048582" },
+    { "centreId": "amoy-street-food-centre", "name": "Manna", "category": "Hawker", "certificateNo": "EEHK20250000583", "address": "7 MAXWELL ROAD AMOY STREET FOOD CENTRE (MND BUILDING ANNEXE B), STALL 71 069111" },
+    { "centreId": "maxwell-food-centre", "name": "Fortune Popiah", "category": "Hawker", "certificateNo": "EEHK20250000279", "address": "1 KADAYANALLUR STREET, STALL 101, MAXWELL FOOD CENTRE 069184" }
+  ],
+  "searchedNoResult": ["Toast Box", "Ya Kun", "Saladstop", "Market Street Hawker Centre"]
+}

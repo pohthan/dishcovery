@@ -1,0 +1,11 @@
+{
+ "_note": "Ingredient decompositions are Claude's estimates of a typical serving, not restaurant data. ['label', fdc_id, grams]; 'salt' is custom NaCl. Same format and FDC ids as data/spike/dishes.json.",
+ "dishes": [
+  {"name":"Chicken rice (steamed or roasted)","ingredients":[["rice",168878,250],["chicken thigh w/ skin",173625,120],["cucumber",168409,40],["soy sauce",174277,10],["sesame oil",171016,3],["chili sauce",171595,15],["salt","salt",1]]},
+  {"name":"Shredded chicken and prawn hor fun","ingredients":[["flat rice noodles",168914,250],["chicken breast",171477,80],["shrimp",175180,50],["chicken broth",174536,150],["pak choi",170390,50],["flour (gravy)",168894,10],["oil",172370,10],["soy sauce",174277,8],["salt","salt",2]]},
+  {"name":"Thunder tea rice (lei cha)","ingredients":[["rice",168878,220],["tofu",172475,60],["peanuts",173806,15],["vegetables (pak choi)",170391,80],["green tea soup",171917,200],["oil",172370,8],["salt","salt",2]]},
+  {"name":"Kaya toast set (toast, 2 eggs, kopi)","ingredients":[["toast",174925,60],["butter",173412,10],["sugar (kaya)",169655,20],["coconut milk",170173,15],["egg (kaya)",171287,20],["soft-boiled eggs",173424,100],["soy sauce",174277,5],["coffee",171890,200],["condensed milk",171275,25]]},
+  {"name":"Laksa","ingredients":[["rice noodles",168914,250],["coconut milk",170173,100],["shrimp",175180,40],["fish cake (surimi)",173702,30],["fried tofu puff",172451,30],["chicken broth",174536,250],["chili paste",171604,15],["oil",172370,10],["salt","salt",2]]},
+  {"name":"Nasi lemak set","ingredients":[["rice",168878,250],["coconut milk",170173,40],["fried chicken thigh",173625,100],["oil",172370,10],["egg fried",173423,50],["anchovies",174183,15],["peanuts",174262,15],["cucumber",168409,30],["sambal (chili)",171604,20],["sugar",169655,5],["salt","salt",1]]}
+ ]
+}

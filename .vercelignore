@@ -1,0 +1,10 @@
+node_modules
+.vercel
+dist
+.env
+.env.*
+data/raw
+data/archive
+data/spike
+data/ingest
+FOR_OPENCODE_REF

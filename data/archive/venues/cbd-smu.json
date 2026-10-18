@@ -1,0 +1,16 @@
+{
+  "_note": "Real venue locations looked up from OpenStreetMap via Nominatim on 2026-10-05. Names, addresses and coordinates only. No menus, no halal status: both still need to be verified.",
+  "source": "OpenStreetMap (ODbL) via Nominatim",
+  "fetchedOn": "2026-10-05",
+  "venues": [
+    { "id": "lau-pa-sat", "name": "Lau Pa Sat", "kind": "food_centre", "address": "18 Raffles Quay", "lat": 1.2806167, "lng": 103.8504802, "osm": "way/45098520" },
+    { "id": "amoy-street-food-centre", "name": "Amoy Street Food Centre", "kind": "food_centre", "address": "7 Maxwell Road", "lat": 1.2793019, "lng": 103.8466566, "osm": "way/117058639" },
+    { "id": "maxwell-food-centre", "name": "Maxwell Food Centre", "kind": "food_centre", "address": "1 Kadayanallur Street", "lat": 1.2803829, "lng": 103.8447131, "osm": "way/47298639" },
+    { "id": "market-street-hawker-centre", "name": "Market Street Hawker Centre", "kind": "food_centre", "address": "Market Street", "lat": 1.2847738, "lng": 103.8502341, "osm": "node/7013126185" },
+    { "id": "saladstop-market-street", "name": "SaladStop! (Market Street)", "kind": "chain", "address": "Market Street", "lat": 1.2842821, "lng": 103.8502843, "osm": "node/9837614947" },
+    { "id": "toast-box-phillip-street", "menuNote": "Drinks come from the official nutrition panel. Food names come from third-party listings and may be incomplete.", "name": "Toast Box (Phillip Street)", "kind": "chain", "address": "#01-05 Phillip Street", "lat": 1.2844664, "lng": 103.8499913, "osm": "node/6816763727" },
+    { "id": "toast-box-cheang-wan-seng", "menuNote": "Drinks come from the official nutrition panel. Food names come from third-party listings and may be incomplete.", "name": "Toast Box (Cheang Wan Seng Place)", "kind": "chain", "address": "#01-K1 Cheang Wan Seng Place", "lat": 1.2821821, "lng": 103.8490184, "osm": "node/6816480065" },
+    { "id": "ya-kun-telegraph-street", "menuNote": "Only the set A breakfast is listed so far. Names come from third-party listings.", "name": "Ya Kun Kaya Toast (Telegraph Street)", "kind": "chain", "address": "Telegraph Street", "lat": 1.2814387, "lng": 103.8510086, "osm": "node/6837973308" },
+    { "id": "ya-kun-chulia-street", "menuNote": "Only the set A breakfast is listed so far. Names come from third-party listings.", "name": "Ya Kun Kaya Toast (Chulia Street)", "kind": "chain", "address": "#B1-13 Chulia Street", "lat": 1.284731, "lng": 103.851032, "osm": "node/6815380210" }
+  ]
+}

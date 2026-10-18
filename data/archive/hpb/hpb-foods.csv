@@ -1,0 +1,38 @@
+key,search_term,hpb_item_name,serving_description,serving_g,energy_kcal,carbs_g,sugar_g,fiber_g,sodium_mg,potassium_mg,phosphorus_mg,hpb_source_type,hpb_last_updated,notes
+chicken-rice,Chicken rice,,,,,,,,,,,,,Steamed or roasted; 1 plate. Used by: Ipoh Hainanese Chicken Rice
+hor-fun-with-gravy,"Hor fun / kway teow, with gravy",,,,,,,,,,,,,Used by: Ipoh Hainanese Chicken Rice (shredded chicken and prawn hor fun)
+lei-cha-rice,Lei cha / thunder tea rice,,,,,,,,,,,,,"Used by: Thunder Tea Rice. If HPB has no entry, leave blank and tell me"
+kaya-toast,Kaya toast,,,,,,,,,,,,,Per serving (ideally 2 slices). Used by: Ya Kun and Toast Box sets
+soft-boiled-egg,"Egg, soft boiled",,,,,,,,,,,,,Per ONE egg (the sets use 2). Used by: Ya Kun and Toast Box sets
+kopi,Kopi (coffee with sweetened condensed milk),,,,,,,,,,,,,Per cup. Used by: Ya Kun and Toast Box sets
+laksa,Laksa,,,,,,,,,,,,,Used by: Toast Box
+nasi-lemak,Nasi lemak,,,,,,,,,,,,,Used by: Toast Box (set composition not confirmed)
+popiah,Popiah,,,,,,,,,,,,,Per ONE roll. Used by: Fortune Popiah (Maxwell)
+min-jiang-kueh-red-bean,"Min jiang kueh / peanut pancake, red bean",,,,,,,,,,,,,Per ONE piece. Used by: Munchi Pancakes
+min-jiang-kueh-peanut,"Min jiang kueh / peanut pancake, peanut",,,,,,,,,,,,,Per ONE piece. Used by: Munchi Pancakes
+chicken-wings-bbq,"Chicken wing, BBQ or grilled",,,,,,,,,,,,,Per serving; note the number of wings. Used by: BBQ Chicken Wing and Western (stall 69)
+gelato,Ice cream / gelato,,,,,,,,,,,,,Per single scoop. Used by: Creme and Cone
+chilli-crab,Chilli crab,,,,,,,,,,,,,Used by: Hong Kong Street Live BBQ Seafood
+black-pepper-crab,Black pepper crab,,,,,,,,,,,,,Used by: Hong Kong Street Live BBQ Seafood
+cereal-prawn,Cereal prawn,,,,,,,,,,,,,Used by: Hong Kong Street Live BBQ Seafood
+sambal-stingray,Sambal stingray,,,,,,,,,,,,,Used by: Hong Kong Street Live BBQ Seafood
+salted-egg-squid,Salted egg squid / sotong,,,,,,,,,,,,,Used by: Hong Kong Street Live BBQ Seafood
+bee-hoon-fried-shrimp,Fried bee hoon with shrimp,,,,,,,,,,,,,Used by: Hong Kong Street Live BBQ Seafood
+sandwich-chicken,"Sandwich, chicken (sub or deli)",,,,,,,,,,,,,"OPTIONAL, not mapped yet. For Subway-type venues once a menu is confirmed"
+caesar-salad-chicken,"Salad, chicken Caesar",,,,,,,,,,,,,"OPTIONAL, not mapped yet. For SaladStop!"
+tuna-salad,"Salad, tuna",,,,,,,,,,,,,"OPTIONAL, not mapped yet. For SaladStop!"
+pad-thai,Pad Thai,,,,,,,,,,,,,"OPTIONAL, not mapped yet"
+ban-mian-soup,"Ban mian, soup",,,,,,,,,,,,,Used by: Prince Noodles (soup). Also fits Haus Ban Mian
+ban-mian-dry,"Ban mian, dry",,,,,,,,,,,,,Used by: Prince Noodles (dry)
+pasta-tomato-sauce,"Pasta / spaghetti, tomato sauce",,,,,,,,,,,,,Used by: Pasta Express. Pasta and sauce only; toppings vary
+pasta-cream-sauce,"Pasta / spaghetti, cream sauce",,,,,,,,,,,,,Used by: Pasta Express. Pasta and sauce only
+pasta-aglio-olio,"Pasta / spaghetti, aglio olio",,,,,,,,,,,,,Used by: Pasta Express. Pasta and sauce only
+indo-crispy-chicken,Fried chicken,,,,,,,,,,,,,Used by: Indo Express Punggol (crispy chicken)
+indo-gepuk-sapi,"Beef, fried or BBQ (gepuk)",,,,,,,,,,,,,Used by: Indo Express Punggol. Skip if HPB has no close item
+indo-soto-ayam,Soto ayam,,,,,,,,,,,,,Used by: Indo Express Punggol
+indo-bakso,Bakso / meatball soup,,,,,,,,,,,,,Used by: Indo Express Punggol
+indo-nasi-uduk,Nasi uduk / coconut rice,,,,,,,,,,,,,Used by: Indo Express Punggol
+indo-sate-ayam,Chicken satay,,,,,,,,,,,,,Used by: Indo Express Punggol (sate ayam). Note the number of sticks
+indo-ketoprak,Ketoprak / gado-gado,,,,,,,,,,,,,Used by: Indo Express Punggol. Skip if HPB has no close item
+indo-rawon,Rawon / beef soup,,,,,,,,,,,,,Used by: Indo Express Punggol. Skip if HPB has no close item
+japanese-curry-rice,Japanese curry rice,,,,,,,,,,,,,"OPTIONAL, not mapped yet. For King Kong Curry once its menu is confirmed"

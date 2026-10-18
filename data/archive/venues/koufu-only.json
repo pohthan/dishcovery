@@ -1,0 +1,17 @@
+{
+  "_note": "Koufu food courts in the launch area. Location from OpenStreetMap via Nominatim, 2026-10-07. Names, addresses and coordinates only. Koufu (100AM, 100 Tras Street) was NOT added: Google Maps showed no Koufu at 100AM on 2026-10-07 and a search summary said it had closed.",
+  "source": "OpenStreetMap (ODbL) via Nominatim; outlet existence cross-checked against SMU wayfinding page and MUIS certificate dated 2026-07",
+  "fetchedOn": "2026-10-07",
+  "venues": [
+    {
+      "id": "koufu-smu",
+      "name": "Koufu (SMU Li Ka Shing Library)",
+      "kind": "food_centre",
+      "address": "70 Stamford Road, #B1-26/28, Singapore 178901",
+      "lat": 1.2963064,
+      "lng": 103.850311,
+      "osm": "node/14148655099",
+      "menuNote": "Food court with many stalls. Only stalls we have looked up are listed."
+    }
+  ]
+}

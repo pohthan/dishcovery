@@ -1,0 +1,44 @@
+{
+ "source": "MUIS Halal Establishments e-service (halal.muis.gov.sg/halal/establishments)",
+ "checkedOn": "2026-10-07",
+ "method": "Searched the e-service in a browser by address (70 Stamford Road, 40 Stamford Road, 55 Armenian Street) and by name, and copied each result exactly as displayed. The search matches name or address text, so results may not be exhaustive.",
+ "establishments": [
+  {
+   "name": "Haus Ban Mian & Fish Soup",
+   "category": "Hawker",
+   "certificateNo": "EEHK26070000020",
+   "address": "70 STAMFORD ROAD Stall 04, Koufu #B1-26/27/28 SINGAPORE MANAGEMENT UNIVERSITY (LI KA SHING LIBRARY) 178901"
+  },
+  {
+   "name": "Selesa Enak Chicken Rice",
+   "category": "Hawker",
+   "certificateNo": "EEHK26070000026",
+   "address": "70 STAMFORD ROAD #B1-26-28 KOUFU SINGAPORE MANAGEMENT UNIVERSITY, MR3 178901"
+  },
+  {
+   "name": "INDO EXPRESS PUNGGOL",
+   "category": "Hawker",
+   "certificateNo": "EEHK26020000079",
+   "address": "40 STAMFORD ROAD #01-02 SMU CONNEXION 178908"
+  },
+  {
+   "name": "1983 A Taste of Nanyang",
+   "category": "Restaurant",
+   "certificateNo": "EERT20220001021",
+   "address": "70 STAMFORD ROAD #01-21 SINGAPORE MANAGEMENT UNIVERSITY 178901"
+  },
+  {
+   "name": "TripletS",
+   "category": "Restaurant",
+   "certificateNo": "EERN21070012573",
+   "address": "70 STAMFORD ROAD #B1-24A SINGAPORE MANAGEMENT UNIVERSITY 178901"
+  }
+ ],
+ "searchedNoResult": [
+  "King Kong Curry",
+  "Pasta Express",
+  "Prince Noodles",
+  "55 Armenian Street"
+ ],
+ "note": "Only establishments that a venue cites by certificateNo become halal-verified venues. 1983 A Taste of Nanyang and TripletS are recorded as evidence but are not imported as venues."
+}

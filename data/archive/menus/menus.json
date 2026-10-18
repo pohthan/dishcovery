@@ -1,0 +1,403 @@
+{
+ "_note": "Dish names from the restaurant's own site (menuSource restaurant) or third-party listings (third_party). No prices. Nutrition comes only from data/hpb/hpb-foods.csv, filled in by hand from HPB SG FoodID. components = HPB foods making up one serving; servings multiplies the HPB serving.",
+ "retrievedOn": "2026-10-06",
+ "venues": [
+  {
+   "venueId": "muis-eehn21120013041",
+   "dishes": [
+    {
+     "name": "Chicken rice (steamed or roasted)",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "chicken-rice",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://www.halalzilla.com/lau-pa-sat-halal-food/25530"
+     ]
+    },
+    {
+     "name": "Shredded chicken and prawn Ipoh hor fun",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "hor-fun-with-gravy",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://healthyeatwhere.com/ipoh-hainanese-chicken-rice-halal-lps-sg/"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "muis-eehk26060000030",
+   "dishes": [
+    {
+     "name": "Thunder tea rice (lei cha)",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "lei-cha-rice",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://www.halalzilla.com/lau-pa-sat-halal-food/25530"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "muis-eehk20240000548",
+   "dishes": [
+    {
+     "name": "Chilli crab",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "chilli-crab",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://oldchunkee.com/our-brands/hong-kong-street-bbq-live-seafood/"
+     ]
+    },
+    {
+     "name": "Black pepper crab",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "black-pepper-crab",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://oldchunkee.com/our-brands/hong-kong-street-bbq-live-seafood/"
+     ]
+    },
+    {
+     "name": "Cereal prawn",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "cereal-prawn",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://oldchunkee.com/our-brands/hong-kong-street-bbq-live-seafood/"
+     ]
+    },
+    {
+     "name": "Sambal stingray",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "sambal-stingray",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://oldchunkee.com/our-brands/hong-kong-street-bbq-live-seafood/"
+     ]
+    },
+    {
+     "name": "Salted egg squid",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "salted-egg-squid",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://oldchunkee.com/our-brands/hong-kong-street-bbq-live-seafood/"
+     ]
+    },
+    {
+     "name": "Deep fried bee hoon with shrimp",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "bee-hoon-fried-shrimp",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://oldchunkee.com/our-brands/hong-kong-street-bbq-live-seafood/"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "muis-eehk20230000954",
+   "dishes": [
+    {
+     "name": "BBQ chicken wings",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "chicken-wings-bbq",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/bbq-chicken-wing-western-cuisine-at-kopitiam/lau-pa-sat-telok-ayer-festival-market"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "muis-eehk20230000278",
+   "dishes": [
+    {
+     "name": "Min jiang kueh, red bean",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "min-jiang-kueh-red-bean",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://eatbook.sg/munchi-pancakes-lau-pa-sat/"
+     ]
+    },
+    {
+     "name": "Min jiang kueh, peanut",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "min-jiang-kueh-peanut",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://eatbook.sg/munchi-pancakes-lau-pa-sat/"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "muis-eesb25100000027",
+   "dishes": [
+    {
+     "name": "Gelato, single scoop",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "gelato",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://sethlui.com/creme-cone-lau-pa-sat-singapore-dec-2020/"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "muis-eehk20250000279",
+   "dishes": [
+    {
+     "name": "Popiah",
+     "vegetarian": null,
+     "menuSource": "restaurant",
+     "components": [
+      {
+       "hpbKey": "popiah",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://fortunefood.sg/pages/outlets"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "ya-kun-telegraph-street",
+   "dishes": [
+    {
+     "name": "Kaya toast set A (toast, 2 soft-boiled eggs, kopi)",
+     "vegetarian": true,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "kaya-toast",
+       "servings": 1
+      },
+      {
+       "hpbKey": "soft-boiled-egg",
+       "servings": 2
+      },
+      {
+       "hpbKey": "kopi",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://singaporemenus.org/menu/yakun-menu/",
+      "https://www.tripadvisor.com/Restaurant_Review-g294265-d1130463-Reviews-Ya_Kun_Kaya_Toast-Singapore.html"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "ya-kun-chulia-street",
+   "dishes": [
+    {
+     "name": "Kaya toast set A (toast, 2 soft-boiled eggs, kopi)",
+     "vegetarian": true,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "kaya-toast",
+       "servings": 1
+      },
+      {
+       "hpbKey": "soft-boiled-egg",
+       "servings": 2
+      },
+      {
+       "hpbKey": "kopi",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://singaporemenus.org/menu/yakun-menu/",
+      "https://www.tripadvisor.com/Restaurant_Review-g294265-d1130463-Reviews-Ya_Kun_Kaya_Toast-Singapore.html"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "toast-box-phillip-street",
+   "dishes": [
+    {
+     "name": "Kaya toast set",
+     "vegetarian": true,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "kaya-toast",
+       "servings": 1
+      },
+      {
+       "hpbKey": "soft-boiled-egg",
+       "servings": 2
+      },
+      {
+       "hpbKey": "kopi",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://sgmenuz.com/toast-box-menu/"
+     ]
+    },
+    {
+     "name": "Laksa",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "laksa",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://www.burpple.com/f/C6u6gmmm"
+     ]
+    },
+    {
+     "name": "Nasi lemak set",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "nasi-lemak",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://sgmenuz.com/toast-box-menu/"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "toast-box-cheang-wan-seng",
+   "dishes": [
+    {
+     "name": "Kaya toast set",
+     "vegetarian": true,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "kaya-toast",
+       "servings": 1
+      },
+      {
+       "hpbKey": "soft-boiled-egg",
+       "servings": 2
+      },
+      {
+       "hpbKey": "kopi",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://sgmenuz.com/toast-box-menu/"
+     ]
+    },
+    {
+     "name": "Laksa",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "laksa",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://www.burpple.com/f/C6u6gmmm"
+     ]
+    },
+    {
+     "name": "Nasi lemak set",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "nasi-lemak",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://sgmenuz.com/toast-box-menu/"
+     ]
+    }
+   ]
+  }
+ ]
+}

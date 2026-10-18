@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Chicken rice (steamed or roasted)",
+  "servingGrams": 439,
+  "nutrients": {
+   "energy_kcal": 655.0,
+   "carbs_g": 75.3,
+   "sugar_g": 2.8,
+   "fiber_g": 1.6,
+   "sodium_mg": 1269.1,
+   "potassium_mg": 548.9,
+   "phosphorus_mg": 400.7
+  }
+ },
+ {
+  "name": "Shredded chicken and prawn hor fun",
+  "servingGrams": 610,
+  "nutrients": {
+   "energy_kcal": 596.0,
+   "carbs_g": 69.9,
+   "sugar_g": 1.4,
+   "fiber_g": 3.3,
+   "sodium_mg": 1977.6,
+   "potassium_mg": 542.8,
+   "phosphorus_mg": 399.5
+  }
+ },
+ {
+  "name": "Thunder tea rice (lei cha)",
+  "servingGrams": 585,
+  "nutrients": {
+   "energy_kcal": 542.8,
+   "carbs_g": 68.3,
+   "sugar_g": 1.5,
+   "fiber_g": 4.3,
+   "sodium_mg": 827.5,
+   "potassium_mg": 627.1,
+   "phosphorus_mg": 286.2
+  }
+ },
+ {
+  "name": "Kaya toast set (toast, 2 eggs, kopi)",
+  "servingGrams": 455,
+  "nutrients": {
+   "energy_kcal": 637.1,
+   "carbs_g": 68.2,
+   "sugar_g": 38.5,
+   "fiber_g": 1.8,
+   "sodium_mg": 787.3,
+   "potassium_mg": 478.6,
+   "phosphorus_mg": 365.7
+  }
+ },
+ {
+  "name": "Laksa",
+  "servingGrams": 727,
+  "nutrients": {
+   "energy_kcal": 723.9,
+   "carbs_g": 69.3,
+   "sugar_g": 2.3,
+   "fiber_g": 3.8,
+   "sodium_mg": 1870.6,
+   "potassium_mg": 540.6,
+   "phosphorus_mg": 423.9
+  }
+ },
+ {
+  "name": "Nasi lemak set",
+  "servingGrams": 536,
+  "nutrients": {
+   "energy_kcal": 969.8,
+   "carbs_g": 82.0,
+   "sugar_g": 7.1,
+   "fiber_g": 2.5,
+   "sodium_mg": 1224.0,
+   "potassium_mg": 838.2,
+   "phosphorus_mg": 572.1
+  }
+ }
+]

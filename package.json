@@ -1,0 +1,24 @@
+{
+  "name": "ail-hack-day",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "src/shared",
+    "src/backend",
+    "src/frontend"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "dev:api": "npm run dev -w src/backend",
+    "dev:web": "npm run dev -w src/frontend",
+    "build:vercel": "node scripts/build-vercel.mjs",
+    "smoke:vercel": "node scripts/smoke-vercel.mjs"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

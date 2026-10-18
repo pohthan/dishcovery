@@ -1,0 +1,45 @@
+{
+  "_note": "DEMONSTRATION coupons only. None of these is an offer from the venue. They exist so the coupon screens can be shown. Real coupons will come from restaurants directly (see docs/01-requirements decisions) and go into the catalog, not this file. One coupon is deliberately expired to show the expired state.",
+  "coupons": [
+    {
+      "id": "demo-pasta-express-10",
+      "venueId": "smu-pasta-express",
+      "code": "DEMO-PASTA10",
+      "description": "10% off any pasta (demo offer)",
+      "validUntil": "2026-12-31",
+      "dishIds": []
+    },
+    {
+      "id": "demo-prince-noodles-dry",
+      "venueId": "prince-noodles-smu-law",
+      "code": "DEMO-NOODLE1",
+      "description": "$1 off the dry signature noodles (demo offer)",
+      "validUntil": "2026-12-31",
+      "dishIds": ["prince-noodles-smu-law--signature-handmade-noodles-dry-ban-mian-you-mian-or-mee-hoon-kueh"]
+    },
+    {
+      "id": "demo-indo-express-drink",
+      "venueId": "smu-indo-express-punggol",
+      "code": "DEMO-DRINK",
+      "description": "Free drink with nasi uduk (demo offer)",
+      "validUntil": "2026-11-30",
+      "dishIds": ["smu-indo-express-punggol--nasi-uduk"]
+    },
+    {
+      "id": "demo-haus-ban-mian",
+      "venueId": "koufu-haus-ban-mian",
+      "code": "DEMO-BANMIAN",
+      "description": "$0.50 off any soup noodle (demo offer)",
+      "validUntil": null,
+      "dishIds": []
+    },
+    {
+      "id": "demo-selesa-expired",
+      "venueId": "koufu-selesa-enak-chicken-rice",
+      "code": "DEMO-EXPIRED",
+      "description": "Free soup with chicken rice (demo offer, expired on purpose)",
+      "validUntil": "2026-09-30",
+      "dishIds": []
+    }
+  ]
+}

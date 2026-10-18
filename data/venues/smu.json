@@ -1,0 +1,106 @@
+{
+ "_note": "SMU venues. Which outlets exist, their unit numbers and vegetarian options come from SMU store directory (smu.edu.sg/campus-life/visiting-smu/store-directory, read 2026-10-07). Coordinates: OpenStreetMap (ODbL) for the buildings, OneMap for the School of Law. Stalls inside a food court have no coordinates of their own and are placed within about 40 m of it. Other SMU outlets in that directory (Subway, Snappy Bowls, Nature Cafe, BRAEK, Onalu and others) are not imported yet. Earlier venue sets are in data/archive/venues.",
+ "source": "SMU store directory (smu.edu.sg/campus-life/visiting-smu/store-directory, read 2026-10-07)",
+ "fetchedOn": "2026-10-07",
+ "venues": [
+  {
+   "id": "koufu-smu",
+   "name": "Koufu (SMU Li Ka Shing Library)",
+   "kind": "food_centre",
+   "address": "70 Stamford Road, #B1-26/28, Singapore 178901",
+   "lat": 1.2963064,
+   "lng": 103.850311,
+   "osm": "node/14148655099",
+   "vegetarianOptions": true,
+   "menuNote": "Food court with many stalls; SMU says certain stalls have vegetarian options. Only stalls we have looked up are listed."
+  },
+  {
+   "id": "smu-connexion",
+   "name": "SMU Connexion Food Court",
+   "kind": "food_centre",
+   "address": "40 Stamford Road, Singapore 178908",
+   "lat": 1.2955963,
+   "lng": 103.8492313,
+   "osm": "way/719635726",
+   "menuNote": "Six outlets on level 1 (#01-01 to #01-06)."
+  },
+  {
+   "id": "prince-noodles-smu-law",
+   "name": "Prince Noodles",
+   "kind": "restaurant",
+   "address": "55 Armenian Street #03-02 (SMU Yong Pung How School of Law), Singapore 179943",
+   "lat": 1.2951084,
+   "lng": 103.8489225,
+   "onemap": "postal 179943",
+   "menuNote": "Not MUIS certified (no MUIS result on 2026-10-07)."
+  },
+  {
+   "id": "smu-open-kitchen-prata-alley",
+   "name": "Open Kitchen by Prata Alley",
+   "kind": "food_centre_stall",
+   "address": "#01-01, SMU Connexion, 40 Stamford Road, Singapore 178908",
+   "inCentre": "smu-connexion",
+   "vegetarianOptions": true,
+   "menuNote": "Muslim-owned per SMU; not MUIS certified."
+  },
+  {
+   "id": "smu-indo-express-punggol",
+   "name": "Indo Express Punggol",
+   "kind": "food_centre_stall",
+   "address": "#01-02, SMU Connexion, 40 Stamford Road, Singapore 178908",
+   "inCentre": "smu-connexion",
+   "vegetarianOptions": true,
+   "muisCertificateNo": "EEHK26020000079"
+  },
+  {
+   "id": "smu-pasta-express",
+   "name": "Pasta Express",
+   "kind": "food_centre_stall",
+   "address": "#01-03, SMU Connexion, 40 Stamford Road, Singapore 178908",
+   "inCentre": "smu-connexion",
+   "vegetarianOptions": true,
+   "menuNote": "Build-your-own pasta: figures cover pasta and sauce only. Not MUIS certified."
+  },
+  {
+   "id": "smu-king-kong-curry",
+   "name": "King Kong Curry",
+   "kind": "food_centre_stall",
+   "address": "#01-04, SMU Connexion, 40 Stamford Road, Singapore 178908",
+   "inCentre": "smu-connexion",
+   "vegetarianOptions": null,
+   "menuNote": "Not MUIS certified (no MUIS result on 2026-10-07)."
+  },
+  {
+   "id": "smu-ying-thai",
+   "name": "Ying Thai",
+   "kind": "food_centre_stall",
+   "address": "#01-05, SMU Connexion, 40 Stamford Road, Singapore 178908",
+   "inCentre": "smu-connexion",
+   "vegetarianOptions": true
+  },
+  {
+   "id": "smu-supergreen",
+   "name": "Supergreen",
+   "kind": "food_centre_stall",
+   "address": "#01-06, SMU Connexion, 40 Stamford Road, Singapore 178908",
+   "inCentre": "smu-connexion",
+   "vegetarianOptions": true
+  },
+  {
+   "id": "koufu-haus-ban-mian",
+   "name": "Haus Ban Mian & Fish Soup",
+   "kind": "food_centre_stall",
+   "address": "Stall 04, Koufu, 70 Stamford Road #B1-26/28, Singapore 178901",
+   "inCentre": "koufu-smu",
+   "muisCertificateNo": "EEHK26070000020"
+  },
+  {
+   "id": "koufu-selesa-enak-chicken-rice",
+   "name": "Selesa Enak Chicken Rice",
+   "kind": "food_centre_stall",
+   "address": "MR3, Koufu, 70 Stamford Road #B1-26/28, Singapore 178901",
+   "inCentre": "koufu-smu",
+   "muisCertificateNo": "EEHK26070000026"
+  }
+ ]
+}

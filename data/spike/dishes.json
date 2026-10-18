@@ -1,0 +1,25 @@
+{
+ "_note": "Ingredient decompositions are Claude's estimates of a typical Singapore serving. fdc = SR Legacy fdc_id, g = grams as served. 'salt' is a custom entry (NaCl, 39340 mg Na per 100 g).",
+ "dishes": [
+  {"name":"Hainanese chicken rice","ingredients":[["rice",168878,250],["chicken thigh w/ skin",173625,120],["cucumber",168409,40],["soy sauce",174277,10],["sesame oil",171016,3],["chili sauce",171595,15],["salt","salt",1]]},
+  {"name":"Laksa","ingredients":[["rice noodles",168914,250],["coconut milk",170173,100],["shrimp",175180,40],["fish cake (surimi)",173702,30],["fried tofu puff",172451,30],["chicken broth",174536,250],["chili paste",171604,15],["oil",172370,10],["salt","salt",2]]},
+  {"name":"Char kway teow","ingredients":[["rice noodles",168914,250],["egg fried",173423,50],["shrimp",175180,30],["fish cake (surimi)",173702,20],["oil",172370,20],["dark soy",174277,15],["chili sauce",171595,10],["pak choi",170390,40]]},
+  {"name":"Wanton mee (dry)","ingredients":[["egg noodles",169732,200],["char siu (pork loin)",167821,60],["soy sauce",174277,10],["oil",172370,10],["pak choi cooked",170391,50],["wanton pork",167821,30],["wanton wrapper (flour)",168894,15],["chili sauce",171595,10],["salt","salt",1]]},
+  {"name":"Fish soup bee hoon","ingredients":[["rice vermicelli",168914,200],["fish (cod)",171956,100],["chicken broth",174536,300],["pak choi",170390,40],["oil",172370,5],["salt","salt",2]]},
+  {"name":"Nasi lemak with fried chicken","ingredients":[["rice",168878,250],["coconut milk",170173,40],["fried chicken thigh",173625,100],["oil",172370,10],["egg fried",173423,50],["anchovies",174183,15],["peanuts",174262,15],["cucumber",168409,30],["sambal (chili)",171604,20],["sugar",169655,5],["salt","salt",1]]},
+  {"name":"Mee goreng","ingredients":[["egg noodles",169732,250],["egg fried",173423,50],["fried tofu",172451,40],["shrimp",175180,30],["tomato",170457,40],["potato",170438,40],["oil",172370,15],["chili sauce",171595,30],["soy sauce",174277,10]]},
+  {"name":"Roti prata (2) with dhal curry","ingredients":[["flour",168894,120],["ghee",171314,15],["chickpeas",173757,100],["coconut milk",170173,30],["oil",172370,10],["salt","salt",1.5]]},
+  {"name":"Chicken biryani","ingredients":[["rice",168878,300],["chicken thigh",173625,150],["ghee",171314,15],["yogurt",170886,40],["onion",170000,50],["oil",172370,10],["salt","salt",3]]},
+  {"name":"Bak chor mee (dry)","ingredients":[["egg noodles",169732,200],["minced pork",167821,70],["fishball (surimi)",173702,30],["mushroom",169242,20],["oil",172370,10],["chili sauce",171595,15],["soy sauce",174277,15],["salt","salt",1]]},
+  {"name":"Fishball noodle soup","ingredients":[["egg noodles",169732,180],["fishball (surimi)",173702,80],["chicken broth",174536,250],["pak choi",170390,30],["salt","salt",2]]},
+  {"name":"Yong tau foo (clear soup, noodles)","ingredients":[["rice noodles",168914,150],["fried tofu",172451,60],["fish paste (surimi)",173702,60],["pak choi",170390,60],["shiitake",169242,20],["chicken broth",174536,300],["salt","salt",2]]},
+  {"name":"Economy rice (1 meat, 2 veg)","ingredients":[["rice",168878,250],["chicken thigh",173625,100],["pak choi cooked",170391,80],["egg fried",173423,50],["soy gravy",174277,15],["oil",172370,25],["salt","salt",2]]},
+  {"name":"Chicken Caesar salad","ingredients":[["romaine",169247,120],["chicken breast",171477,100],["parmesan",170848,15],["croutons (toasted bread)",174925,20],["dressing (oil)",172370,20],["bacon",167914,10],["salt","salt",1]]},
+  {"name":"Tom yum seafood soup with rice","ingredients":[["shrimp",175180,60],["chicken broth",174536,300],["mushroom",169242,40],["tomato",170457,40],["fish sauce",174531,15],["lime juice",168156,15],["chili",170106,5],["rice",168878,200]]},
+  {"name":"Kaya toast set (2 eggs, kopi)","ingredients":[["toast",174925,60],["butter",173412,10],["sugar (kaya)",169655,20],["coconut milk",170173,15],["egg (kaya)",171287,20],["soft-boiled eggs",173424,100],["soy sauce",174277,5],["coffee",171890,200],["condensed milk",171275,25]]},
+  {"name":"Kopi with condensed milk","ingredients":[["coffee",171890,200],["condensed milk",171275,25],["sugar",169655,5]]},
+  {"name":"Teh tarik","ingredients":[["black tea",173227,200],["condensed milk",171275,30]]},
+  {"name":"Spaghetti carbonara","ingredients":[["pasta",169737,250],["bacon",167914,40],["cream",170859,60],["parmesan",170848,15],["egg raw",171287,30],["salt","salt",1]]},
+  {"name":"Vegetarian bee hoon","ingredients":[["rice vermicelli",168914,200],["fried tofu",172451,60],["pak choi",170390,60],["shiitake",169242,20],["oil",172370,15],["soy sauce",174277,15],["salt","salt",1.5]]}
+ ]
+}

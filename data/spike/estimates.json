@@ -1,0 +1,262 @@
+[
+ {
+  "name": "Hainanese chicken rice",
+  "servingGrams": 439,
+  "nutrients": {
+   "energy_kcal": 655.0,
+   "carbs_g": 75.3,
+   "sugar_g": 2.8,
+   "fiber_g": 1.6,
+   "sodium_mg": 1269.1,
+   "potassium_mg": 548.9,
+   "phosphorus_mg": 400.7
+  }
+ },
+ {
+  "name": "Laksa",
+  "servingGrams": 727,
+  "nutrients": {
+   "energy_kcal": 723.9,
+   "carbs_g": 69.3,
+   "sugar_g": 2.3,
+   "fiber_g": 3.8,
+   "sodium_mg": 1870.6,
+   "potassium_mg": 540.6,
+   "phosphorus_mg": 423.9
+  }
+ },
+ {
+  "name": "Char kway teow",
+  "servingGrams": 435,
+  "nutrients": {
+   "energy_kcal": 616.7,
+   "carbs_g": 65.5,
+   "sugar_g": 2.1,
+   "fiber_g": 3.3,
+   "sodium_mg": 1196.7,
+   "potassium_mg": 389.2,
+   "phosphorus_mg": 329.9
+  }
+ },
+ {
+  "name": "Wanton mee (dry)",
+  "servingGrams": 386,
+  "nutrients": {
+   "energy_kcal": 662.7,
+   "carbs_g": 65.1,
+   "sugar_g": 2.6,
+   "fiber_g": 3.6,
+   "sodium_mg": 1156.9,
+   "potassium_mg": 725.2,
+   "phosphorus_mg": 422.3
+  }
+ },
+ {
+  "name": "Fish soup bee hoon",
+  "servingGrams": 647,
+  "nutrients": {
+   "energy_kcal": 388.4,
+   "carbs_g": 50.2,
+   "sugar_g": 1.8,
+   "fiber_g": 2.4,
+   "sodium_mg": 2041.8,
+   "potassium_mg": 406.8,
+   "phosphorus_mg": 204.8
+  }
+ },
+ {
+  "name": "Nasi lemak with fried chicken",
+  "servingGrams": 536,
+  "nutrients": {
+   "energy_kcal": 969.8,
+   "carbs_g": 82.0,
+   "sugar_g": 7.1,
+   "fiber_g": 2.5,
+   "sodium_mg": 1224.0,
+   "potassium_mg": 838.2,
+   "phosphorus_mg": 572.1
+  }
+ },
+ {
+  "name": "Mee goreng",
+  "servingGrams": 505,
+  "nutrients": {
+   "energy_kcal": 788.2,
+   "carbs_g": 83.0,
+   "sugar_g": 7.7,
+   "fiber_g": 6.6,
+   "sodium_mg": 1110.0,
+   "potassium_mg": 708.0,
+   "phosphorus_mg": 542.8
+  }
+ },
+ {
+  "name": "Roti prata (2) with dhal curry",
+  "servingGrams": 276,
+  "nutrients": {
+   "energy_kcal": 883.3,
+   "carbs_g": 119.8,
+   "sugar_g": 5.1,
+   "fiber_g": 10.8,
+   "sodium_mg": 603.4,
+   "potassium_mg": 485.4,
+   "phosphorus_mg": 326.4
+  }
+ },
+ {
+  "name": "Chicken biryani",
+  "servingGrams": 568,
+  "nutrients": {
+   "energy_kcal": 1006.6,
+   "carbs_g": 92.0,
+   "sugar_g": 5.1,
+   "fiber_g": 2.0,
+   "sodium_mg": 1366.2,
+   "potassium_mg": 651.1,
+   "phosphorus_mg": 525.1
+  }
+ },
+ {
+  "name": "Bak chor mee (dry)",
+  "servingGrams": 361,
+  "nutrients": {
+   "energy_kcal": 596.2,
+   "carbs_g": 57.4,
+   "sugar_g": 3.3,
+   "fiber_g": 3.4,
+   "sodium_mg": 1514.1,
+   "potassium_mg": 576.8,
+   "phosphorus_mg": 461.1
+  }
+ },
+ {
+  "name": "Fishball noodle soup",
+  "servingGrams": 542,
+  "nutrients": {
+   "energy_kcal": 346.5,
+   "carbs_g": 52.5,
+   "sugar_g": 2.1,
+   "fiber_g": 2.5,
+   "sodium_mg": 1857.2,
+   "potassium_mg": 278.6,
+   "phosphorus_mg": 383.5
+  }
+ },
+ {
+  "name": "Yong tau foo (clear soup, noodles)",
+  "servingGrams": 652,
+  "nutrients": {
+   "energy_kcal": 416.0,
+   "carbs_g": 49.4,
+   "sugar_g": 4.2,
+   "fiber_g": 4.9,
+   "sodium_mg": 2064.5,
+   "potassium_mg": 426.8,
+   "phosphorus_mg": 428.0
+  }
+ },
+ {
+  "name": "Economy rice (1 meat, 2 veg)",
+  "servingGrams": 522,
+  "nutrients": {
+   "energy_kcal": 893.6,
+   "carbs_g": 73.0,
+   "sugar_g": 1.0,
+   "fiber_g": 1.9,
+   "sodium_mg": 1846.0,
+   "potassium_mg": 778.5,
+   "phosphorus_mg": 479.1
+  }
+ },
+ {
+  "name": "Chicken Caesar salad",
+  "servingGrams": 286,
+  "nutrients": {
+   "energy_kcal": 533.8,
+   "carbs_g": 15.5,
+   "sugar_g": 2.7,
+   "fiber_g": 3.1,
+   "sodium_mg": 979.9,
+   "potassium_mg": 646.3,
+   "phosphorus_mg": 439.3
+  }
+ },
+ {
+  "name": "Tom yum seafood soup with rice",
+  "servingGrams": 675,
+  "nutrients": {
+   "energy_kcal": 369.2,
+   "carbs_g": 64.3,
+   "sugar_g": 4.5,
+   "fiber_g": 2.4,
+   "sodium_mg": 2365.6,
+   "potassium_mg": 572.7,
+   "phosphorus_mg": 299.9
+  }
+ },
+ {
+  "name": "Kaya toast set (2 eggs, kopi)",
+  "servingGrams": 455,
+  "nutrients": {
+   "energy_kcal": 637.1,
+   "carbs_g": 68.2,
+   "sugar_g": 38.5,
+   "fiber_g": 1.8,
+   "sodium_mg": 787.3,
+   "potassium_mg": 478.6,
+   "phosphorus_mg": 365.7
+  }
+ },
+ {
+  "name": "Kopi with condensed milk",
+  "servingGrams": 230,
+  "nutrients": {
+   "energy_kcal": 101.6,
+   "carbs_g": 18.6,
+   "sugar_g": 18.6,
+   "fiber_g": 0.0,
+   "sodium_mg": 35.8,
+   "potassium_mg": 190.8,
+   "phosphorus_mg": 69.2
+  }
+ },
+ {
+  "name": "Teh tarik",
+  "servingGrams": 230,
+  "nutrients": {
+   "energy_kcal": 98.3,
+   "carbs_g": 16.9,
+   "sugar_g": 16.3,
+   "fiber_g": 0.0,
+   "sodium_mg": 44.1,
+   "potassium_mg": 185.3,
+   "phosphorus_mg": 77.9
+  }
+ },
+ {
+  "name": "Spaghetti carbonara",
+  "servingGrams": 396,
+  "nutrients": {
+   "energy_kcal": 919.9,
+   "carbs_g": 80.1,
+   "sugar_g": 3.3,
+   "fiber_g": 4.5,
+   "sodium_mg": 1508.2,
+   "potassium_mg": 437.8,
+   "phosphorus_mg": 545.7
+  }
+ },
+ {
+  "name": "Vegetarian bee hoon",
+  "servingGrams": 372,
+  "nutrients": {
+   "energy_kcal": 533.2,
+   "carbs_g": 56.7,
+   "sugar_g": 2.9,
+   "fiber_g": 5.6,
+   "sodium_mg": 1502.5,
+   "potassium_mg": 372.8,
+   "phosphorus_mg": 281.7
+  }
+ }
+]

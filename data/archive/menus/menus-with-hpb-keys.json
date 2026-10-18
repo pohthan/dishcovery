@@ -1,0 +1,203 @@
+{
+ "_note": "Dish names from third-party listings (menuSource third_party), no prices. Nutrition comes only from data/hpb/hpb-foods.csv, filled in by hand from HPB SG FoodID. Indo Express dishes are the brand's, listed for its other outlets; the SMU Connexion outlet's own menu is unconfirmed. The previous venue set is in data/archive/menus/menus.json.",
+ "retrievedOn": "2026-10-07",
+ "venues": [
+  {
+   "venueId": "prince-noodles-smu-law",
+   "dishes": [
+    {
+     "name": "Signature handmade noodles, soup (ban mian, you mian or mee hoon kueh)",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "ban-mian-soup",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://eatbook.sg/smu-food-guide/"
+     ]
+    },
+    {
+     "name": "Signature handmade noodles, dry (ban mian, you mian or mee hoon kueh)",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "ban-mian-dry",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://eatbook.sg/smu-food-guide/"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "smu-pasta-express",
+   "dishes": [
+    {
+     "name": "Pasta with tomato sauce",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "pasta-tomato-sauce",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://eatbook.sg/smu-food-guide/"
+     ]
+    },
+    {
+     "name": "Pasta with cream sauce",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "pasta-cream-sauce",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://eatbook.sg/smu-food-guide/"
+     ]
+    },
+    {
+     "name": "Pasta aglio olio",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "pasta-aglio-olio",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://eatbook.sg/smu-food-guide/"
+     ]
+    }
+   ]
+  },
+  {
+   "venueId": "smu-indo-express-punggol",
+   "dishes": [
+    {
+     "name": "Crispy chicken",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-crispy-chicken",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    },
+    {
+     "name": "Gepuk sapi (BBQ beef)",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-gepuk-sapi",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    },
+    {
+     "name": "Soto ayam Surabaya",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-soto-ayam",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    },
+    {
+     "name": "Bakso sapi komplit",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-bakso",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    },
+    {
+     "name": "Nasi uduk",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-nasi-uduk",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    },
+    {
+     "name": "Sate ayam Madura",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-sate-ayam",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    },
+    {
+     "name": "Ketoprak Jakarta",
+     "vegetarian": null,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-ketoprak",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    },
+    {
+     "name": "Rawon Surabaya",
+     "vegetarian": false,
+     "menuSource": "third_party",
+     "components": [
+      {
+       "hpbKey": "indo-rawon",
+       "servings": 1
+      }
+     ],
+     "sources": [
+      "https://halalboleh.com/shop/indo-express"
+     ]
+    }
+   ]
+  }
+ ]
+}
