@@ -28,7 +28,9 @@ export function MapView({ origin, venues, selectedId, onSelect }: Props) {
     <MapContainer
       center={[origin.lat, origin.lng]}
       zoom={15}
-      className="h-64 w-full rounded-lg md:h-[32rem]"
+      // isolate: Leaflet gives its inner layers z-index 400 to 1000. Without a stacking context of its
+      // own the map is painted above popups (such as the coupons dialog), cutting them off.
+      className="relative isolate z-0 h-64 w-full rounded-lg md:h-[32rem]"
       scrollWheelZoom={false}
     >
       <TileLayer url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" attribution="&copy; OpenStreetMap contributors" />
