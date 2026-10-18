@@ -78,12 +78,7 @@ For example: a misspelt `venue_id`, a dish on a food court, a nutrient with no `
 
 ## One thing not to rename
 
-Three demo coupons point at specific dishes. If you rename these, the coupons demo stops loading (on purpose, with a clear error):
-
-- "Signature handmade noodles, dry (ban mian, you mian or mee hoon kueh)" at Prince Noodles
-- "Nasi uduk" at Indo Express Punggol
-
-Tell me if you rename them and I will update the coupons.
+One demo coupon points at a specific dish: "Signature handmade noodles, dry (ban mian, you mian or mee hoon kueh)" at Prince Noodles. If you rename that dish, the coupons demo page shows an error (the search still works). Tell me and I will update the coupon.
 
 ## Not covered (for later)
 

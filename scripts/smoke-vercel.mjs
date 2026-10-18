@@ -1,11 +1,12 @@
 /**
  * Smoke test for the built deployment. Run `npm run build:vercel` first, then `npm run smoke:vercel`.
- * It loads the bundled function exactly as Vercel would, serves it on a local port, and checks the
- * endpoints and the static files. Exits non-zero on the first problem.
+ * It loads the bundled function with require(), the way Vercel does, serves it on a local port, and
+ * checks the endpoints and the static files. Exits non-zero on the first problem.
  */
 import { existsSync } from "node:fs";
 import { createServer } from "node:http";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { createRequire } from "node:module";
+import { fileURLToPath } from "node:url";
 
 const out = fileURLToPath(new URL("../.vercel/output/", import.meta.url));
 
@@ -25,7 +26,9 @@ for (const f of ["venues/smu.json", "published/muis-halal-smu.json", "upload/dis
 }
 
 process.env.DEMO_COUPONS = "true";
-const { default: handler } = await import(pathToFileURL(`${out}functions/api.func/index.mjs`).href);
+check(existsSync(`${out}functions/api.func/index.js`), "function bundle index.js exists");
+const handler = createRequire(import.meta.url)(`${out}functions/api.func/index.js`);
+check(typeof handler === "function", "require() of the bundle returns the handler function");
 const server = createServer(handler);
 await new Promise((resolve) => server.listen(0, resolve));
 const base = `http://127.0.0.1:${server.address().port}`;

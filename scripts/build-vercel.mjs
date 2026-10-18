@@ -2,7 +2,7 @@
  * Builds the deployment in Vercel's Build Output API format (https://vercel.com/docs/build-output-api/v3):
  *
  *   .vercel/output/static/                      the Vite site
- *   .vercel/output/functions/api.func/          one function: the Express API bundled into index.mjs,
+ *   .vercel/output/functions/api.func/          one function: the Express API bundled into index.js,
  *                                               plus a copy of the data files it reads
  *   .vercel/output/config.json                  routes /api/* to the function
  *
@@ -39,13 +39,18 @@ await cp(`${root}src/frontend/dist`, `${out}/static`, { recursive: true });
 console.log("2/4 Bundling the API");
 await build({
   entryPoints: [`${root}src/backend/app/vercel-entry.ts`],
-  outfile: `${fn}/index.mjs`,
+  outfile: `${fn}/index.js`,
   bundle: true,
   platform: "node",
-  format: "esm",
+  // CommonJS, because Vercel may load the function with require(), which cannot load an ES module
+  // that uses top-level await. A CommonJS file works however it is loaded.
+  format: "cjs",
   target: "node22",
-  // Some dependencies are CommonJS and call require(); give the ES module one.
-  banner: { js: "import { createRequire as __cr } from 'node:module'; const require = __cr(import.meta.url);" },
+  // The source uses import.meta.url to find the data folder; give it the equivalent in CommonJS.
+  banner: { js: 'const __importMetaUrl = require("node:url").pathToFileURL(__filename).href;' },
+  define: { "import.meta.url": "__importMetaUrl" },
+  // Make the file export the handler function itself, not an object holding it.
+  footer: { js: "module.exports = module.exports.default;" },
   logLevel: "info",
 });
 
@@ -55,9 +60,12 @@ for (const folder of DATA_FOLDERS) {
 }
 
 console.log("4/4 Writing Vercel config");
+// The repository's own package.json says "type": "module". Say plainly that this folder is CommonJS,
+// so the bundle is read the same way here and on Vercel.
+await writeFile(`${fn}/package.json`, JSON.stringify({ type: "commonjs" }, null, 2));
 await writeFile(
   `${fn}/.vc-config.json`,
-  JSON.stringify({ runtime: "nodejs22.x", handler: "index.mjs", launcherType: "Nodejs" }, null, 2),
+  JSON.stringify({ runtime: "nodejs22.x", handler: "index.js", launcherType: "Nodejs" }, null, 2),
 );
 await mkdir(out, { recursive: true });
 await writeFile(

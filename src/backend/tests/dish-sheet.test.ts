@@ -125,10 +125,9 @@ describe("a filled sheet drives matching", () => {
 describe("the real upload sheet", () => {
   const csv = readFileSync(fileURLToPath(new URL("upload/dishes.csv", repoDataRoot)), "utf-8");
 
-  it("loads, and keeps the dishes the demo coupons point at", async () => {
+  it("loads", async () => {
     const catalog = await loadCatalogData(repoDataRoot);
     expect(catalog.dishes.length).toBeGreaterThan(0);
-    expect(catalog.dishes.some((d) => d.id === "smu-indo-express-punggol--nasi-uduk")).toBe(true);
   });
 
   it("holds no more than the dish limit", async () => {

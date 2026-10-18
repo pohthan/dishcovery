@@ -41,11 +41,11 @@ The last command should end with `All smoke checks passed.` If any step fails, s
 - Visibility: **Private** (recommended: the data files include names and details gathered from third-party sites, and we have not asked permission to republish them)
 - Leave **all three boxes unticked**: no README, no .gitignore, no licence. The project already has them, and ticking them makes the first push fail.
 
-**b) Tell git who you are** (once per computer; git needs this to commit):
+**b) Tell git who you are** (once per computer; git needs this to commit). Use GitHub's anonymous address, not your real email: GitHub rejects pushes that would publish a private email (error `GH007`). Find yours at github.com/settings/emails; it looks like `12345678+your-username@users.noreply.github.com`.
 
 ```powershell
 git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
+git config --global user.email "12345678+your-username@users.noreply.github.com"
 ```
 
 **c) Turn the folder into a repository and commit it:**
@@ -128,6 +128,7 @@ The first command signs you in, the second makes a preview deployment (answer th
 | Symptom | Likely cause and fix |
 |---|---|
 | `git push` is rejected, says remote has commits | You ticked README/.gitignore/licence when creating the repository. Delete the repository on GitHub and create it again empty |
+| `git push` says `GH007: Your push would publish a private email address` | The commit used your real email. Set the anonymous address from step 2b with `git config --global user.email "..."`, then run `git commit --amend --reset-author --no-edit` and `git push -u origin main` |
 | `git push` asks for a password and fails | GitHub no longer accepts passwords. Sign in through the browser window that opens, or install Git Credential Manager (it comes with Git for Windows) |
 | `git add .` lists thousands of files | `node_modules` is not being ignored. Confirm `.gitignore` is in the folder, then `git rm -r --cached node_modules` |
 | Build fails: "Missing .../node_modules/vite" | The install did not run at the repository root. Check Root Directory is `./` and Install Command is `npm install` |

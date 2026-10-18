@@ -53,6 +53,15 @@ describe("GET /api/demo/coupons", () => {
     expect(res.status).toBe(500);
   });
 
+  it("keeps the real search working when a demo coupon is broken", async () => {
+    const app = createApp(repo, null, { demoCoupons: [coupon("c1", "gone")] });
+    const res = await request(app)
+      .post("/api/match")
+      .send({ profile: { conditions: [], sodiumPreset: null, limits: {}, halalOnly: false, vegetarianOnly: false }, origin: null });
+    expect(res.status).toBe(200);
+    expect(res.body.venues.length).toBeGreaterThan(0);
+  });
+
   it("never puts demo coupons into match results", async () => {
     const app = createApp(repo, "http://localhost:5173", { demoCoupons: [coupon("c1", "v1")] });
     const res = await request(app)

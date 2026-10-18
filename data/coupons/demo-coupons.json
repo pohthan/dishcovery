@@ -21,9 +21,9 @@
       "id": "demo-indo-express-drink",
       "venueId": "smu-indo-express-punggol",
       "code": "DEMO-DRINK",
-      "description": "Free drink with nasi uduk (demo offer)",
+      "description": "Free drink with any main (demo offer)",
       "validUntil": "2026-11-30",
-      "dishIds": ["smu-indo-express-punggol--nasi-uduk"]
+      "dishIds": []
     },
     {
       "id": "demo-haus-ban-mian",
